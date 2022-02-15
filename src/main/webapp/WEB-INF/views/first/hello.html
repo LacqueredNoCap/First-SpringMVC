@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+</head>
+<body>
+<h1>Hello!</h1>
+<h2><a href="/first/goodbye">Say goodbye</a></h2>
+<h3><a href="/first/hello?firstName=ABC&secondName=DEF">Request with parameters</a></h3>
+
+<p th:text="${message}">
+<h5><a href="/exit">Exit</a></h5>
+</body>
+</html>
